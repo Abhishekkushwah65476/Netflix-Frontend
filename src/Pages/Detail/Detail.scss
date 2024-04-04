@@ -1,0 +1,52 @@
+.description-section{
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+}
+.section-1{
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+
+  .new{
+    color: lightgreen;
+    font-weight: 600;
+    margin-right: 10px;
+    
+  }
+  .hd{
+    border: 1px solid white;
+    padding: 1px;
+    font-weight: 600;
+    margin-right: 10px;
+    
+  }
+  .U{
+    border: 1px solid white;
+    padding: 3px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .new-1{
+    font-size: 15px;
+
+  }
+  .description{
+    margin-top: 10px;
+    // width: 400px;
+    font-size: 13px;
+  }
+
+
+}
+
+.section-2{
+    padding: 10px;
+    .cast{
+        color: grey;
+    }
+
+}
+
+

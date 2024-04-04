@@ -1,0 +1,227 @@
+.home{
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-netflix {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.parent-natflix {
+  color: white;
+  /* height: 100vh; */
+  width: 100%;
+  background:linear-gradient(to top,transparent 0%, rgb(0,0,0,0.3) 50%);
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+   
+  &.scrolled{
+    color: white;
+    
+    width: 100%;
+    background:#000;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+  
+  
+  /* background: linear-gradient(0.25turn, rgb(0, 0, 0), rgba(0, 0, 0, 0)),
+    url("https://www.tbsnews.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/images/2022/10/23/img_0272.jpg") no-repeat center center / cover;
+  ; */
+}
+
+
+/* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+.nav-text {
+  width: 50%;
+  padding: 10px;
+  height: 80dvh;
+  overflow: hidden;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.img {
+  filter: brightness(200%);
+}
+
+.img-50 {
+  color: white;
+  position: relative;
+  top: -10px;
+  box-shadow: inset 0px 0px 10px 10px #000;
+  background-color: rgba(0, 0, 0, 0);
+  background: url("https://i.pinimg.com/736x/51/9d/fc/519dfc7f6154a5fea3854f1fc4bbbe0e.jpg") no-repeat center center / cover;
+  ;
+}
+
+.position-netflix {
+  position: relative;
+  bottom: 100px;
+  /* margin-left: 24px; */
+}
+
+.slick-slide {
+  width: 50vw;
+  box-sizing: border-box;
+}
+
+.slider-container {
+  overflow: hidden;
+}
+
+.slider-container h3 {
+  margin-right: +5px;
+  color: #fff;
+}
+
+
+.hide {
+  display: none;
+}
+
+.card-0 {
+  transition: 0.2s all ease-in-out;
+  /* box-shadow: rgba(235, 235, 239, 0.347) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  margin: 10px;
+  background-color: #273469;
+  padding-top: 2px;
+  border: 0.2px solid grey;
+  margin-left: 10px;
+  align-items: center;
+  padding: 10px;
+  margin: 10px !important;
+  
+}
+
+.card-0:hover {
+  transform: scale(1.05);
+  background-color: #7161ef;
+  box-shadow: rgba(247, 244, 244, 0.489) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  .hide {
+    display: block;
+  }
+}
+
+/* .img-crousel{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: 03.s all ease-in-out;
+  background-color: red;
+} */
+/* .img-crousel:hover{
+  transform: scale(2);
+  z-index: 10;
+}
+
+.owl-stage-outer::-webkit-scrollbar{
+  display: none;
+} */
+/* .owl-stage-outer{
+ height: 100vh;
+ 
+}
+.owl-stage-outer img:hover{
+  transform: scale(2);
+  transition: 0.2s;
+
+}
+
+.img-crousel{
+  padding: 10px;
+  background-color: red;
+} */
+/* .parents{
+  display: flex;
+  overflow-x: scroll;
+  ::-webkit-scrollbar{
+  }
+}
+.img-crousel{
+ background-color: red;
+ padding: 10px;
+}
+
+.background-color{
+  position: relative;
+  top: -50px;
+} */
+/* 
+.img{
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+} */
+
+#owl-demo .item{
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+/*  net flix css*/
+.child{
+  height: 200px;
+  display: flex;
+  gap: 10px;
+}
+.c-img{
+  height: 100%;
+  width: 680px;
+  /* object-fit: cover; */
+  /* object-position: top; */
+}
+.c-img:hover{
+  transition: 0.5s all ease-in-out;
+  transform: scale(1.5);
+  object-fit: unset;
+  z-index: 9;
+
+}
+
+.c-button-a{
+  position: relative;
+  top: 90px;
+ right: 70px;
+ 
+}
+.c-button-b{
+  position: relative;
+  top: 90px;
+ left: 70px;
+ 
+}
+.react-multi-carousel-list  {
+  overflow: auto;
+  overflow: unset;
+}
+/*  net flix css*/
